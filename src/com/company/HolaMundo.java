@@ -4,6 +4,16 @@ public class HolaMundo {
 
     //comentario
     public static void main(String[] args) {
-        System.out.println("Hola mundo desde Java");
+        int miVariableEntera = 10;
+        System.out.println(miVariableEntera);
+        //Modificar el valor de la variable
+        miVariableEntera = 5;
+        System.out.println(miVariableEntera);
+
+        String miVariableCadena ="JoelYNataly";
+        System.out.println(miVariableCadena);
+
+        miVariableCadena="teAmoNataly";
+        System.out.println(miVariableCadena);
     }
 }
